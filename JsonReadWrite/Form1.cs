@@ -59,6 +59,22 @@ namespace JsonReadWrite
                 foreach (StudentProp pr in readObject)
                 {
                     //show item as per your requirement
+                    //all code for fetching the data and show on the graph will be write here..
+                    
+
+                    //for fetch the subject mark
+                    /*
+                     *  
+                     *  var sb = pr.Subjects;
+                        int a=sb.Adbms;
+                        sb.An;
+                        sb.Mc;
+                        sb.Ns;
+                        sb.Se;
+                    *
+                    *
+                    */
+
                     listView1.Items.Add(pr.Name);
                 }
             }
